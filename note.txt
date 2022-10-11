@@ -1,0 +1,9 @@
+Create two flags. One for the decimal point and one to make sure that only pairs of numbers are 
+being worked upon.
+
+Reset flags to false if user hits the equal or the clear button. Also reset the result variable
+
+create an opcode variable and two variables for the operands. Don't perform the operation unless
+a pair of operands along with the opcode has been provided.
+
+add the result to a result variable and keep it static.
