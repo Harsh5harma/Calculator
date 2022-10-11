@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,34 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    
+    <div class="calculator" draggable="false">
+        <div class="display"><span class="result">1782</span></div>
+        <div class="operations">
+            <div class="d"><img  class="delete" src="icons/delete-315.svg"></div>
+            <div class="clear">C</div>
+            <div class="equals">=</div>
+        </div>
+        <div class="numbers">
+            <div class="number" data-num="7">7</div>
+            <div class="number" data-num="8">8</div>
+            <div class="number" data-num="9">9</div>
+            <div class="number" data-opcode="divide">/</div>
+            <div class="number" data-num="4">4</div>
+            <div class="number" data-num="5">5</div>
+            <div class="number" data-num="6">6</div>
+            <div class="number" data-opcode="multiply">x</div>
+            <div class="number" data-num="1">1</div>
+            <div class="number" data-num="2">2</div>
+            <div class="number" data-num="3">3</div>
+            <div class="number" data-opcode="subtract">-</div>
+            <div class="number" data-num="0">0</div>
+            <div class="number" data-opcode="decimal">.</div>
+            <div class="number" data-opcode="exp">**</div>
+            <div class="number" data-opcode="add">+</div> 
+        </div>
+    </div>
 </body>
+
 </html>
